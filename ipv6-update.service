@@ -1,0 +1,8 @@
+[Unit]
+Description=IPv6 prefix update service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/root/ipv6_update/ipv6_update.sh
