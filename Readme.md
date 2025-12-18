@@ -258,6 +258,11 @@ systemctl status ipv6-update.service
 journalctl -u ipv6-update.service
 ```
 
+最终效果如下，飞牛OS可自动更新前缀，有ipv6访问需求的可以设置静态ipv6满足需求。
+
+![ScreenShot_2025-12-19_025141_489.png](IMG%2FScreenShot_2025-12-19_025141_489.png)
+
+![ScreenShot_2025-12-19_025045_149.png](IMG%2FScreenShot_2025-12-19_025045_149.png)
 
 ## 八、设计原则说明（为什么这样做）
 
@@ -288,4 +293,5 @@ journalctl -u ipv6-update.service
 ✔ 日志清晰
 ✔ 结构稳定
 ✔ 可长期维护
+
 
